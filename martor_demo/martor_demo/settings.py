@@ -146,4 +146,4 @@ MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-CSRF_TRUSTED_ORIGINS = ['http://*.gunduran.de','http://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://*.gunduran.de', 'http://*.127.0.0.1']
