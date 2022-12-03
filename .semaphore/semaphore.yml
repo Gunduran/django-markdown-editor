@@ -31,7 +31,6 @@ blocks:
             - python manage.py makemigrations
             - python manage.py migrate
             - python manage.py test
-          parallelism: 4
         - name: Deploy checklist
           commands:
             - cd martor_demo
