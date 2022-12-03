@@ -146,6 +146,6 @@ MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#CSRF_TRUSTED_ORIGINS = ['http://*.127.0.0.1:8020', 'http://*.127.0.0.1', 'http://127.0.0.1', 'http://*.192.168.178.6:*', "http://*.localhost:*", "http://*"]
-#CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8020', 'http://192.168.178.6:8020', "http://localhost:8020"]
+# CSRF_TRUSTED_ORIGINS = ['http://*.127.0.0.1:8020', 'http://*.127.0.0.1', 'http://127.0.0.1', 'http://*.192.168.178.6:*', "http://*.localhost:*", "http://*"]
+# CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8020', 'http://192.168.178.6:8020', "http://localhost:8020"]
 CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8020', 'http://192.168.178.6:8020', "http://localhost:8020"]
